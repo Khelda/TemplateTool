@@ -8,6 +8,9 @@ pom.Project(
 
     dependencies: [
       pom.Dependency('org.apache.hadoop', 'hadoop-common', '2.7.3'),
+      pom.Dependency('org.apache.hadoop',
+                     'hadoop-mapreduce-client-core',
+                     '2.7.3'),
     ],
 
     build: {
